@@ -17,7 +17,7 @@ namespace DemoForecastSC.Server.Controllers
 		}
 
 		[HttpPost]
-		public async Task<IActionResult> SaveUserInfo([FromBody] LiveForecast liveForecast)
+		public async Task<IActionResult> saveLiveWeather([FromBody] LiveForecast liveForecast)
 		{
 			if (!ModelState.IsValid)
 			{

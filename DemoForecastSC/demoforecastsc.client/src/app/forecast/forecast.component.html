@@ -1,0 +1,35 @@
+
+<div class="container">
+  <h1>Enter Forecast Details</h1>
+  <form (ngSubmit)="saveLiveWeather()">
+    <div class="form-group">
+      <label for="location">Location:</label>
+      <input type="text" class="form-control" id="location" [(ngModel)]="forecast.location" name="location">
+    </div>
+    <div class="form-group">
+      <label for="date">Date:</label>
+      <input type="date" class="form-control" id="date" [(ngModel)]="forecast.date" name="date">
+    </div>
+    <div class="form-group">
+      <label for="wind">Wind:</label>
+      <input type="text" class="form-control" id="wind" [(ngModel)]="forecast.wind" name="wind">
+    </div>
+    <div class="form-group">
+      <label for="airquality">Air Quality:</label>
+      <input type="text" class="form-control" id="airquality" [(ngModel)]="forecast.airquality" name="airquality">
+    </div>
+    <div class="form-group">
+      <label for="celsius">Celsius:</label>
+      <input type="text" class="form-control" id="celsius" [(ngModel)]="forecast.celsius" name="celsius">
+    </div>
+    <div class="form-group">
+      <label for="fahrenheit">Fahrenheit:</label>
+      <input type="text" class="form-control" id="fahrenheit" [(ngModel)]="forecast.fahrenheit" name="fahrenheit">
+    </div>
+    <div class="form-group">
+      <label for="summary">Summary:</label>
+      <textarea class="form-control" id="summary" [(ngModel)]="forecast.summary" name="summary"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+  </form>
+</div>

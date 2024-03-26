@@ -1,4 +1,6 @@
 
+using DemoForecastSC.Server.DbContexts;
+
 namespace DemoForecastSC.Server
 {
 	public class Program
@@ -13,6 +15,8 @@ namespace DemoForecastSC.Server
 			// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 			builder.Services.AddEndpointsApiExplorer();
 			builder.Services.AddSwaggerGen();
+			ForecastDbContext liveForecasts = new ForecastDbContext();
+			builder.Services.AddSingleton(liveForecasts);
 
 			var app = builder.Build();
 
