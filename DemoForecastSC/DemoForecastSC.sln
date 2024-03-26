@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoForecastSC.Server", "DemoForecastSC.Server\DemoForecastSC.Server.csproj", "{1BB2FE6B-3057-48CA-A3EC-BB50784F5ED0}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "demoforecastsc.client", "demoforecastsc.client\demoforecastsc.client.esproj", "{15CFCAAD-F84D-4CD3-ADA8-4AAB5FAE7FA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BB2FE6B-3057-48CA-A3EC-BB50784F5ED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BB2FE6B-3057-48CA-A3EC-BB50784F5ED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BB2FE6B-3057-48CA-A3EC-BB50784F5ED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BB2FE6B-3057-48CA-A3EC-BB50784F5ED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15CFCAAD-F84D-4CD3-ADA8-4AAB5FAE7FA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15CFCAAD-F84D-4CD3-ADA8-4AAB5FAE7FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15CFCAAD-F84D-4CD3-ADA8-4AAB5FAE7FA7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{15CFCAAD-F84D-4CD3-ADA8-4AAB5FAE7FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15CFCAAD-F84D-4CD3-ADA8-4AAB5FAE7FA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15CFCAAD-F84D-4CD3-ADA8-4AAB5FAE7FA7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3773EE39-5EE9-419F-9F8D-52CBE84B8546}
+	EndGlobalSection
+EndGlobal
