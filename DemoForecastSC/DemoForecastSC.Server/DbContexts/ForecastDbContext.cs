@@ -15,8 +15,8 @@ namespace DemoForecastSC.Server.DbContexts
 		{
 			var configurationInstance = new ConfigurationBuilder()
 				   .SetBasePath(Directory.GetParent(AppContext.BaseDirectory)?.FullName ?? ".")
-				   .AddJsonFile("appsettings.json", optional: true)
-				   .AddJsonFile("appsettings.local.json", optional: true)
+				  // .AddJsonFile("appSettings.json", optional: true)
+				   .AddJsonFile("appSettings.local.json", optional: true)
 				   .Build();
 
 			string dbConnString = configurationInstance["ConnectionStrings:forecastDbUser"] ?? "";
